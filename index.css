@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.backgrnd
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.content
+{
+    background-color: rgba(134, 126, 114, 0.8);
+    height: 600px;
+    width:80%;
+    border-radius: 50px;
+    
+
+    
+}
+.header
+{
+    width:100%;
+    height:10%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: rgb(192, 245, 190);
+    padding: 20px;
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+.follow
+{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(88, 8, 84);
+    border: 2px solid rgb(112, 5, 112);
+    transition: transform .6s;
+    
+}
+.follow:hover
+{
+    transform: scale(1.1);
+    background-color:rgb(88, 8, 84) ;
+    color:rgb(255, 255, 255) ;
+}
