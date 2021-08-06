@@ -16,7 +16,7 @@
 }
 .content
 {
-    background-color: rgba(68, 68, 68,0.8);
+    background-color: rgba(134, 126, 114, 0.8);
     height: 600px;
     width:80%;
     border-radius: 50px;
@@ -36,7 +36,7 @@
 .logo
 {
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-    color: rgb(244, 249, 249);
+    color: rgb(192, 245, 190);
     padding: 20px;
     font-size: 80%;
     letter-spacing: 1px;
